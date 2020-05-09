@@ -8,11 +8,11 @@ public class BlockDemo {
         i = 5;
         j = 10;
 
-        if (i != 0){
+        if (i != 0) {
             System.out.println("i not equal zero");
-            d = j /i ;
+            d = j / i;
             System.out.println("j / i is " + d);
-            
+
         }
     }
 }
