@@ -10,7 +10,5 @@ public class ChartArithDemo {
 
         ch++;
         System.out.println("ch is now " + ch);
-        
-
     }
 }
