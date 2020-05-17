@@ -1,8 +1,8 @@
 package CalcEngine;
 
 /*
- * This is the code for section 7
- * After -> Language fundamentals
+ * This is the code for section 9
+ * Class Inheretance
  */
 
 import javax.sound.midi.SysexMessage;
