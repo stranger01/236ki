@@ -1,5 +1,8 @@
 package CalcEngine;
 
+/**
+ * Created by Jim on 9/12/2015.
+ */
 public class MathEquation {
     private double leftVal;
     private double rightVal;
