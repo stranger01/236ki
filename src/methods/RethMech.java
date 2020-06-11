@@ -35,8 +35,7 @@ class RethMech {
         System.out.println("sportscar can carry : " + sportscar.passengers
                 + " with a range of  " + range1 + " Miles");
 
-        System.out.println("minivan car carry : " + minivan.passengers + "with range of "
-        + minivan.range() + "miles");
+       
 
     }
 }
