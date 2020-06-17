@@ -9,33 +9,36 @@ class Vehicle {
     int range() {
         return mpg * fuelcap;
     }
+
+    double fuelneeded(int miles){
+        return (double) miles /mpg;
+
+    }
 }
 
-class RethMech {
+class ComPFuel{
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
 
-        int range1, range2;
+        double gallons;
 
-        minivan.passengers = 7;
+        int dist = 252;
+
+        minivan.passengers =7;
         minivan.fuelcap = 16;
         minivan.mpg = 21;
 
         sportscar.passengers = 2;
         sportscar.fuelcap = 14;
-        sportscar.mpg = 12;
+        sportscar.mpg =12;
 
-        range1 = minivan.range();
-        range2 = minivan.range();
+        gallons = minivan.fuelneeded(dist);
 
-        System.out.println("minivan can carry : " + minivan.passengers
-        + " with a range of  " + range1 + " Miles");
+        System.out.println("To go " + dist + "miles minivan needs " + gallons + "gallons of fuel");
 
-        System.out.println("sportscar can carry : " + sportscar.passengers
-                + " with a range of  " + range1 + " Miles");
+        gallons = sportscar.fuelneeded(dist);
 
-       
-
+        System.out.println("To go  " + dist + "miles sportscar " + gallons + "gallons of fuel");
     }
 }
